@@ -1,9 +1,7 @@
 import { GET_ITEMS, DELETE_ITEM, ADD_ITEM, ITEMS_LOADING } from '../actions/types';
 
 const initialState  = { // 이 전체가 item 이다
-    items: [
-        
-    ],
+    items: [],
     loading: false
 }
 
